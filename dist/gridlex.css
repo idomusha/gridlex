@@ -25,6 +25,27 @@
 /************************
     HELPERS SUFFIXES
 *************************/
+[class*="grid-"][class*="-gutter-s"] {
+  margin: 0 -0.25rem;
+}
+[class*="grid-"][class*="-gutter-s"] .col,
+[class*="grid-"][class*="-gutter-s"] [class*="col-"] {
+  padding: 0 0.25rem 0.5rem;
+}
+[class*="grid-"][class*="-gutter-m"] {
+  margin: 0 -0.5rem;
+}
+[class*="grid-"][class*="-gutter-m"] .col,
+[class*="grid-"][class*="-gutter-m"] [class*="col-"] {
+  padding: 0 0.5rem 1rem;
+}
+[class*="grid-"][class*="-gutter-l"] {
+  margin: 0 -1rem;
+}
+[class*="grid-"][class*="-gutter-l"] .col,
+[class*="grid-"][class*="-gutter-l"] [class*="col-"] {
+  padding: 0 1rem 2rem;
+}
 [class*="grid-"][class*="-noGutter"] {
   margin: 0;
 }
